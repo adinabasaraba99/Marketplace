@@ -17,12 +17,15 @@ In rezolvarea temei, am pornit de la scheletul dat pentru
 problema Multi Producer, Multi Consumer.
 
 IMPLEMENTARE
+
 Producer
+
 Un producător produce produse noi care sunt publicate mai apoi pe piață.
 Dacă lista de care dispune producatorul sau dacă am reușit să publicăm
 produsul, folosesc sleep pentru a aștepta o perioadă de timp.
 
 Consumer
+
 Cumpărătorul primește un coș de cumpărături(carts), căruia îi este asociat un
 anumit id. Atunci când pune un anumit produs în coș, acesta devine indisponibil
 pentru ceilalți cumpărători (este șters din Marketplace). Atunci când șterge
