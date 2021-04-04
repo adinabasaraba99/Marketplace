@@ -32,7 +32,7 @@ pentru ceilalți cumpărători (este șters din Marketplace). Atunci când șter
 produse din coș, acestea devin disponibile pentru restul cumpărătorilor.
 De asemenea, plasează comenzi.
 
-Marketplace:
+Marketplace
 
 Am definit urmatoarele structuri:
 dicționarul stock în care rețin pentru fiecare producător,produsele, lista
