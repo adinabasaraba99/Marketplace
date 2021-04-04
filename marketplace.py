@@ -56,15 +56,12 @@ class Marketplace:
         self.lock_publish.acquire()
         length = len(self.stock[producer_id])
         # If there is still space in the list of this producer
-        if length < self.queue_size_per_prod:
-            # Add the product
-            self.stock[producer_id].append(product)
-            result = True
-        else:
-            result = False
+        if length >= self.queue_size_per_prod:
+            return False
+        # Add the product
+        self.stock[producer_id].append(product)
         self.lock_publish.release()
-        # return true or false in result
-        return result
+        return True
 
     def new_cart(self):
         """
