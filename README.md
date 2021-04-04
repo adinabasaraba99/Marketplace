@@ -10,7 +10,7 @@ You can click the Preview link to take a look at your changes.
 --->
 Basarabă Adina, 336CB
 
-Tema <1> ASC
+Tema 1 ASC
 
 ORGANIZARE
 In rezolvarea temei, am pornit de la scheletul dat pentru
@@ -33,6 +33,7 @@ produse din coș, acestea devin disponibile pentru restul cumpărătorilor.
 De asemenea, plasează comenzi.
 
 Marketplace:
+
 Am definit urmatoarele structuri:
 dicționarul stock în care rețin pentru fiecare producător,produsele, lista
 products în care rețin toate produsele, lista carts, lock-uri pentru
