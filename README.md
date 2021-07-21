@@ -1,4 +1,4 @@
-Basarabă Adina, 336CB
+Basarabă Adina-Vasilica
 
 
 Tema 1 ASC
