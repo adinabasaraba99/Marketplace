@@ -1,7 +1,7 @@
 Producer
 
 Un producător produce produse noi care sunt publicate mai apoi pe piață.
-Dacă lista de care dispune producatorul sau dacă am reușit să publicăm
+Pentru lista de care dispune producatorul sau dacă am reușit să publicăm
 produsul, folosesc sleep pentru a aștepta o perioadă de timp.
 
 Consumer
